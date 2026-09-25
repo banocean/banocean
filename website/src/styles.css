@@ -1,3 +1,5 @@
+@import "activity.css";
+
 :root {
     --bg-main: #040506;
     --bg-card: #161b22;
@@ -294,6 +296,21 @@ section {
     display: none;
 }
 
-.tabs:has(.tab.overview.active) + section.overview {
+body:has(.tab.overview.active) section.overview {
     display: block;
+}
+
+body:has(.tab.activity.active) section.activity {
+    display: block;
+}
+
+body:has(.tab.screenshots.active) section.screenshots {
+    display: block;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: var(--text-muted);
 }

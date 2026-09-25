@@ -6,7 +6,7 @@
     <title>ocean (BanOcean)</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <script src="./script.js" type="module" defer></script>
 </head>
 <body>
 <div class="container">
@@ -43,8 +43,8 @@
     <div class="main-content">
         <div class="tabs">
             <div class="tab overview active"><i class="fa-solid fa-book-open"></i> Overview</div>
-            <div class="tab"><i class="fa-solid fa-clipboard-user"></i> Recent activity</div>
-            <div class="tab"><i class="fa-solid fa-images"></i> Screenshots</div>
+            <div class="tab activity"><i class="fa-solid fa-clipboard-user"></i> Recent activity</div>
+            <div class="tab screenshots"><i class="fa-solid fa-images"></i> Screenshots</div>
         </div>
 
         <section class="overview">
@@ -133,6 +133,17 @@
                     </div>
                 </div>
             </div>
+
+            <h2 class="section-title">Activity Feed</h2>
+            <button class="btn btn-github btn-go-to-activity" style="width: max-content; padding-left: 20px; padding-right: 20px; cursor: pointer;">
+                <i class="fa-solid fa-clock-rotate-left btn-icon"></i> View recent activity
+            </button>
+        </section>
+
+        <section class="activity"></section>
+
+        <section class="screenshots">
+            <p class="center">No screenshots uploaded yet</p>
         </section>
     </div>
 </div>

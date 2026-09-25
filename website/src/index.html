@@ -50,20 +50,49 @@
         <section class="overview">
             <h2 class="section-title">Projects</h2>
             <div class="grid">
-                <div class="card">
-                    <div class="flex">
-                        <img class="project-logo" alt="ice skin editor logo" src="./imgs/ice-skin-editor-logo.png">
-                        <div>
-                            <div class="card-header">
-                                <i class="fa-solid fa-folder"></i>
-                                <a href="https://editor.banocean.com" class="card-title">mc-skin-overlays</a>
+                <div class="card project-card">
+                    <div class="project-header">
+                        <img class="project-avatar" alt="Ice Skin Editor Logo" src="./imgs/ice-skin-editor-logo.webp">
+                        <div class="project-title-group">
+                            <div class="project-title-row">
+                                <a href="https://editor.banocean.com" class="card-title">ICE SKIN EDITOR</a>
                             </div>
-                            <div class="card-desc">Set of tools for creating, editing and rendering Minecraft skins. Consists of both advanced skin editor and website for finding skin overlays.</div>
+                            <a href="https://gitlab.com/banocean/mc-skin-overlays" class="project-repo-link">
+                                mc-skin-overlays
+                            </a>
                         </div>
                     </div>
 
+                    <div class="card-desc">
+                        Advanced Minecraft skin editor with niche features like folders, layer masks, and exporting to GLB scenes and interactive HTML files
+                    </div>
+
                     <div class="card-meta">
-                        <span><span class="language-color" style="background-color: var(--javascript-color);"></span> Javascript</span>
+                        <span><span class="language-color" style="background-color: var(--rust-color);"></span> Rust</span>
+                        <span><span class="language-color" style="background-color: var(--javascript-color);"></span> JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="card project-card">
+                    <div class="project-header">
+                        <img class="project-avatar" alt="Mc Overlay Tool Logo" src="./imgs/mc-overlay-tool-logo.webp">
+                        <div class="project-title-group">
+                            <div class="project-title-row">
+                                <a href="https://overlays.banocean.com" class="card-title">MC OVERLAY TOOL</a>
+                            </div>
+                            <a href="https://gitlab.com/banocean/mc-skin-overlays" class="project-repo-link">
+                                mc-skin-overlays
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card-desc">
+                        Website for searching and previewing Minecraft skin overlays, such as clothing, backpacks, and accessories
+                    </div>
+
+                    <div class="card-meta">
+                        <span><span class="language-color" style="background-color: var(--rust-color);"></span> Rust</span>
+                        <span><span class="language-color" style="background-color: var(--javascript-color);"></span> JavaScript</span>
                     </div>
                 </div>
 
@@ -73,7 +102,29 @@
                         <a href="https://github.com/banocean/ifv" class="card-title">ifv</a>
                         <span class="public-archive-label">Public archive</span>
                     </div>
-                    <div class="card-desc">Browser extension with improvements for eduVULCAN and Dziennik VULCAN</div>
+                    <div class="card-desc">Browser extension with UX improvements for eduVULCAN and Dziennik VULCAN services</div>
+                    <div class="card-meta">
+                        <span><span class="language-color" style="background-color: var(--javascript-color);"></span> JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-folder"></i>
+                        <a href="https://github.com/banocean/message-template" class="card-title">message-template</a>
+                    </div>
+                    <div class="card-desc">A minimal templating engine built in Rust for short-message generation with support for expressions, logic, and variables</div>
+                    <div class="card-meta">
+                        <span><span class="language-color" style="background-color: var(--rust-color);"></span> Rust</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-folder"></i>
+                        <a href="https://github.com/banocean/vite-include-html-plugin2" class="card-title">vite-include-html-plugin2</a>
+                    </div>
+                    <div class="card-desc">Vite plugin that implements &lt;include&gt; tag letting you embed content from other files</div>
                     <div class="card-meta">
                         <span><span class="language-color" style="background-color: var(--javascript-color);"></span> JavaScript</span>
                     </div>

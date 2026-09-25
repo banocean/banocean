@@ -109,6 +109,7 @@ body {
     color: var(--text-main);
     border-bottom: 2px solid transparent;
     font-size: 14px;
+    text-align: center;
 }
 
 .tab i {

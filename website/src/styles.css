@@ -101,6 +101,7 @@ body {
     display: flex;
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 20px;
+    overflow-x: auto;
 }
 
 .tab {
@@ -199,6 +200,9 @@ a.card-title:hover {
     }
     .sidebar, .main-content {
         width: 100%;
+    }
+    .grid {
+        grid-template-columns: 1fr;
     }
 }
 
